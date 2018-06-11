@@ -5,70 +5,66 @@ import Lightbox from 'react-images';
 import Gallery from 'react-photo-gallery';
 
 const photos = [
-    {
-    sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/22.jpg")
-},
-{
-    sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/24.jpg")
-},
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/26.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/27.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/28.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/29.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/30.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/31.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/32.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/33.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/34.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/35.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/36.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/37.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/39.jpg")
-    },
-    {
-        sizes: ["width: 100%", "height: 100%"],
-        src: require("../../../img/nashi/40.jpg")
-    }
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/1.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/2.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/3.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/4.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/5.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/6.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/7.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/8.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/9.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/10.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/11.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/12.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/13.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/14.jpg")
+  },
+  {
+    sizes: ["width: 100%", "height: 300px"],
+    src: require("../../../gallery/15.jpg")
+  }
 ];
 
 class Section4 extends React.Component {
@@ -158,7 +154,7 @@ class Section4 extends React.Component {
                             и компании.Вот некоторые из наших работ:</p>
                     </div>
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.HamBurger1].join(' ')}>
-                        <Gallery width={"100%"} photos={photos} onClick={this.openLightbox} columns='3'  />
+                        <Gallery width={"100%"}  photos={photos} onClick={this.openLightbox} columns='3'  />
                         <Lightbox images={photos}
                                   onClose={this.closeLightbox}
                                   onClickPrev={this.gotoPrevious}
