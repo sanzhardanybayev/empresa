@@ -1,0 +1,31 @@
+#lightboxBackdrop{
+    z-index: 9999;
+}
+#lightboxBackdrop img{
+    width: 50vw !important;
+}
+@media (min-width: 0px) and (max-width: 373px){
+    #lightboxBackdrop img{
+        width: 100vw !important;
+    }
+}
+@media (min-width: 373px) and (max-width: 573px){
+    #lightboxBackdrop img{
+        width: 78vw !important;
+    }
+}
+@media (min-width: 573px) and (max-width: 763px){
+    #lightboxBackdrop img{
+        width: 68vw !important;
+    }
+}
+@media (max-width: 763px){
+    #lightboxBackdrop img{
+        width: 68vw !important;
+    }
+}
+@media (min-width: 765px) and (max-width: 992px){
+    #lightboxBackdrop img{
+        width: 60vw !important;
+    }
+}

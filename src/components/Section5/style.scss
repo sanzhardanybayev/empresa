@@ -1,0 +1,656 @@
+.section5{
+  margin-top: 50px;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .show1{
+    z-index: 7777777;
+    transition: 2000ms;
+  }
+  .Black{
+    width: 100%;
+    transition: 2000ms !important;
+    height: 100%;
+    position: absolute;
+    z-index: 555;
+  }
+
+  iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1 !important;
+  }
+  .show{
+    opacity: 0;
+    z-index: -10;
+    transition: 2000ms !important;
+  }
+  .BlackFilter{
+    width: 100%;
+    transition: 2000ms !important;
+    height: 100%;
+    position: absolute;
+    background: black;
+    opacity: 0.8;
+    z-index: 555;
+  }
+  .show{
+    opacity: 0;
+    transition: 2000ms !important;
+    z-index: -10;
+  }
+   .Maps123{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     transition: 2000ms;
+     .Maps{
+       display: flex;
+       flex-direction: column !important;
+       position: relative;
+       width: 100%;
+       opacity: 1;
+       transition: 2000ms !important;
+
+       .text1{
+         color: white;
+         margin-top: 30px !important;
+         z-index: 666;
+         text-align: center;
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         flex-direction: column;
+         position: relative;
+         align-items: center;
+         h2{
+           font-family: BebasRegular;
+           line-height: 0;
+           margin-top: 10px;
+         }
+         .linewhite{
+           border: 1px solid white;
+           width: 2.5%;
+           text-align: center;
+           margin-top: 19px;
+           margin-bottom: 43px;
+           background: white;
+         }
+       }
+       .text2{
+         color: white;
+         z-index: 666;
+         text-align: center;
+         margin: 20px 0;
+         p{
+           line-height: 0;
+           font-family: RobotoRegular;
+         }
+       }
+
+       .animated{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         z-index: 777;
+         margin-bottom: 50px;
+         .holder0{
+           display: flex;
+           margin: 30px 0;
+           .holder1{
+             margin-left: 72px;
+             text-align: right;
+           }
+           .holdertext{
+             margin-right: 20px;
+             p{
+               color: white;
+               font-family: RobotoRegular;
+             }
+             .red{
+               color: red;
+             }
+             #width{
+               width: 135px !important;
+               .ndecor{
+                 text-decoration: none;
+                 color: white;
+               }
+             }
+           }
+         }
+       }
+
+     }
+     .show{
+       opacity: 0;
+       z-index: -1;
+       p{
+       }
+       .lineRed{
+         .ball{
+           transform: translateX(50px);
+           transition: 1000ms;
+         }
+       }
+     }
+
+
+   }
+  .show{
+    opacity: 0;
+    z-index: -1;
+    transition: 2000ms;
+    p{
+      color: #000 !important;
+
+    }
+    .lineRed{
+      .ball{
+        transform: translateX(50px);
+        transition: 1000ms;
+      }
+    }
+  }
+  .openMaps{
+    z-index: 1000;
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    bottom: 1px;
+    opacity: 1 !important;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    .lineRed{
+      position: absolute;
+      top: 0;
+      left: calc(50% - 26px);
+      height: 22%;
+      width: 4%;
+      background: rgba(255, 0, 0, 0.6);
+      border: none;
+      border-radius: 30px;
+      bottom: 44px;
+      display: block;
+      margin-top: -15px;
+      .ball{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        top: -5px;
+        background: #c32c12;
+        border: none;
+        transition: 1000ms;
+        z-index: 555555;
+      }
+    }
+
+    p{
+      margin-top: 10px;
+      font-family: RobotoRegular;
+      color: white;
+    }
+
+  }
+}
+@media (width: 320px) and (height: 460px) {
+
+  .section5{
+    .openMaps{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 994px){
+    .section5{
+      .BlackFilter{
+
+      }
+      .Maps123{
+        .Maps{
+          .text1{
+            margin: 10px 0;
+            .linewhite{
+              width: 9.5%;
+            }
+          }
+          .text2{
+            margin: 0;
+            p{
+              line-height: 1;
+            }
+          }
+          .animated{
+            margin: 0;
+            .holder0{
+              margin: 10px 0;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              .holder1{
+                margin-left: 0;
+                text-align: center;
+              }
+              .holdertext{
+                text-align: center;
+                margin-right: 0;
+              }
+            }
+          }
+        }
+
+      }
+      .openMaps{
+        .lineRed{
+          width: 14%;
+        }
+      }
+    }
+}
+@media (min-width: 768px) and (max-width: 994px){
+  .section5{
+    .BlackFilter{
+
+    }
+    .Maps123{
+      .Maps{
+        .text1{
+          margin: 10px 0;
+          .linewhite{
+            width: 9.5%;
+          }
+        }
+        .text2{
+          margin: 0;
+          p{
+            line-height: 1;
+          }
+        }
+        .animated{
+          margin: 0;
+          .holder0{
+            margin: 0;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .holder1{
+              margin-left: 0;
+              text-align: center;
+            }
+            .holdertext{
+              text-align: center;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+    }
+    .openMaps{
+      .lineRed{
+        width: 14%;
+      }
+    }
+  }
+}
+
+@media (min-width: 994px) and (max-width: 1260px) {
+
+
+}
+
+@media (min-width: 1260px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1260px) {
+
+}
+
+
+@media (max-width: 767px) {
+  .section5{
+
+    .BlackFilter{
+
+    }
+    .Maps123{
+      .Maps{
+        .text1{
+          margin: 10px 0;
+          .linewhite{
+            width: 6.5%;
+            margin-bottom: 0;
+          }
+        }
+        .text2{
+          margin: 10px 0;
+          p{
+            line-height: 1;
+          }
+        }
+        .animated{
+          margin: 0 0 60px 0;
+          .holder0{
+            margin: 20px 0;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .holder1{
+              margin-left: 0;
+              text-align: center;
+            }
+            .holdertext{
+              text-align: center;
+              margin-right: 0;
+              .linehight{
+                line-height: 0;
+              }
+              #width{
+                width: 135px;
+              }
+            }
+          }
+        }
+      }
+
+    }
+    .openMaps{
+      margin-bottom: 1px;
+      .lineRed{
+        width: 12%;
+      }
+    }
+  }
+
+}
+@media (min-width: 373px) and (max-width: 573px) {
+  .section5{
+    .BlackFilter{
+
+    }
+    .Maps123{
+      .Maps{
+        .text1{
+          margin: 10px 0;
+          .linewhite{
+            width: 9.5%;
+          }
+        }
+        .text2{
+          margin: 0;
+          p{
+            line-height: 1;
+          }
+        }
+        .animated{
+          margin: 0 0 50px 0;
+          .holder0{
+            margin: 20px 0;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .holder1{
+              margin-left: 0;
+              text-align: center;
+            }
+            .holdertext{
+              text-align: center;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+    }
+    .openMaps{
+      bottom: -3px;
+      .lineRed{
+        width: 15%;
+      }
+    }
+  }
+
+}
+@media (min-width: 0px) and (max-width: 373px) {
+  .section5{
+    .BlackFilter{
+
+    }
+    .Maps123{
+      .Maps{
+        .text1{
+          margin: 10px 0;
+          .linewhite{
+            width: 9.5%;
+          }
+        }
+        .text2{
+          margin: 0;
+          p{
+            line-height: 1;
+          }
+        }
+        .animated{
+          margin: 0 0 60px 0;
+          .holder0{
+            margin: 0;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 0;
+            .holder1{
+              margin-left: 0;
+              text-align: center;
+            }
+            .holdertext{
+              text-align: center;
+              margin-right: 0;
+              .linehight{
+                line-height: 0;
+              }
+            }
+          }
+        }
+      }
+
+    }
+    .openMaps{
+      bottom: -3px;
+      .lineRed{
+        width: 18%;
+        button{
+          height: 12px;
+          width: 12px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .section5{
+    .BlackFilter{
+
+    }
+    .Maps123{
+      .Maps{
+        margin-bottom: 75px;
+        .text1{
+          margin: 10px 0;
+          .linewhite{
+            width: 9.5%;
+          }
+        }
+        .text2{
+          margin: 0;
+          p{
+            line-height: 1;
+          }
+        }
+        .animated{
+          margin: 0;
+          .holder0{
+            margin: 0;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .holder1{
+              margin-left: 0;
+              text-align: center;
+            }
+            .holdertext{
+              text-align: center;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+    }
+    .openMaps{
+      .lineRed{
+        width: 14%;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 920px) and (max-width: 992px) {
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section5{
+    .BlackFilter{
+
+    }
+    .Maps123{
+      .Maps{
+        margin-bottom: 75px;
+        .text1{
+          margin: 10px 0;
+          .linewhite{
+            width: 4.5%;
+            margin-bottom: 0;
+          }
+        }
+        .text2{
+          margin: 0;
+          p{
+            line-height: 1;
+          }
+        }
+        .animated{
+          margin: 0;
+          .holder0{
+            margin: 0;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .holder1{
+              margin-left: 0;
+              text-align: center;
+            }
+            .holdertext{
+              text-align: center;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+    }
+    .openMaps{
+      .lineRed{
+        width: 7%;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+  .section5{
+    .BlackFilter{
+
+    }
+    .Maps123{
+      .Maps{
+        .text1{
+          margin: 10px 0;
+          .linewhite{
+            width: 2.5%;
+            margin-bottom: 0;
+          }
+        }
+        .text2{
+          margin-top: 20px;
+
+          p{
+            line-height: 1;
+          }
+        }
+        .animated{
+          margin: 0 0 60px 0;
+          .holder0{
+            margin: 0;
+            justify-content: center;
+            flex-direction: row;
+            margin: 20px 0;
+
+            .holder1{
+              margin-left: 0;
+              text-align: right;
+            }
+            .holdertext{
+              text-align: left;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+
+    }
+    .openMaps{
+      .lineRed{
+        width: 5%;
+      }
+    }
+  }
+
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+}

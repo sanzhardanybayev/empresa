@@ -1,0 +1,294 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .FooterContainer{
+    background: black;
+    .contacts{
+      margin: 40px 0;
+      display: flex;
+      justify-content: space-around;
+      h5{
+        color: white;
+        font-family: RobotoRegular;
+      }
+      .contacts2{
+        img{
+          height: 35px;
+        }
+        p{
+          color: white;
+          font-family: RobotoRegular;
+          margin-top: 20px;
+        }
+      }
+      .contacts1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .phone1{
+          display: flex;
+          margin-top: 14px;
+          .ndecor{
+            text-decoration: none;
+            color: white;
+          }
+          img{
+            width: 18px;
+            height: 18px;
+            margin-top: 1px;
+            margin-right: 8px;
+          }
+          p{
+          }
+
+        }
+        .messages{
+          display: flex;
+          margin-left: 10px;
+
+          img{
+            width: 18px;
+            height: 18px;
+            margin-top: 1px;
+            margin-right: 10px;
+          }
+
+        }
+        p{
+          color: white;
+          font-family: RobotoRegular;
+        }
+        h2{
+          color: white;
+          font-size: 1.5em;
+          font-family: RobotoCondensedRegular;
+        }
+        .razdel{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          z-index: 555;
+          h2{
+            color: white;
+            font-size: 1.5em;
+            margin-left: 36px;
+            font-family: RobotoCondensedRegular;
+          }
+          ul{
+
+            li{
+              list-style: none ;
+              margin: 5px 0;
+              a{
+                color: white;
+                font-family: RobotoRegular;
+                transition: 500ms;
+                &:hover{
+                  text-decoration: none;
+                  color: red;
+                  opacity: 1;
+                  transition: 500ms;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .Empressa{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h5{
+        color: white;
+        font-family: RobotoCondensedRegular;
+      }
+    }
+  }
+}
+@media (max-width: 994px){
+  .footer{
+    .FooterContainer{
+      .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .contacts2{
+          text-align: center;
+        }
+      }
+      .contacts1{
+        .razdel{
+          h2{
+            margin-left: 0 !important;
+          }
+          ul{
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 994px){
+  .footer{
+    .FooterContainer{
+      .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .contacts2{
+          text-align: center;
+        }
+      }
+      .contacts1{
+        .razdel{
+          h2{
+            margin-left: 0 !important;
+          }
+          ul{
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 994px) and (max-width: 1260px) {
+
+
+}
+
+@media (min-width: 1260px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1260px) {
+
+}
+
+
+@media (max-width: 767px) {
+  .footer{
+    .FooterContainer{
+      .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .contacts2{
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          p{
+            width: 70% !important;
+          }
+        }
+      }
+      .contacts1{
+        .razdel{
+          h2{
+            margin-left: 0 !important;
+          }
+          ul{
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .footer{
+    .FooterContainer{
+      .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .contacts2{
+          text-align: center;
+        }
+      }
+      .contacts1{
+        .razdel{
+          h2{
+            margin-left: 0 !important;
+          }
+          ul{
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 920px) and (max-width: 992px) {
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer{
+    .FooterContainer{
+      .contacts{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .contacts2{
+          text-align: center;
+        }
+      }
+      .contacts1{
+        .razdel{
+          h2{
+            margin-left: 0 !important;
+          }
+          ul{
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+  .footer{
+    .FooterContainer{
+      .Empressa{
+        h5{
+          margin-left: 33px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+
+}

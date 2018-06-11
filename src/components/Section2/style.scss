@@ -1,0 +1,500 @@
+.section2{
+  display: flex;
+  justify-content: center;
+ .center{
+   .Empressa{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+     h2{
+       text-transform: uppercase;
+       font-family: RobotoCondensedRegular;
+       span{
+         color: #3452ff;
+         font-family: RobotoCondensedRegular;
+       }
+     }
+     p{
+       width: 35%;
+       margin: 30px 0;
+       text-align: center;
+       font-family: RobotoCondensedRegular;
+     }
+
+   }
+   .services{
+     margin: 30px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+
+
+     .icons{
+       text-align: center;
+       width: 33%;
+       .LeftBorder{
+         border-left: 1px solid silver;
+         position: absolute;
+         height: 100%;
+         top: 0;
+         opacity: 0.3;
+       }
+       .RightBorder{
+         border-left: 1px solid silver;
+         position: absolute;
+         height: 100%;
+         top: 0;
+         opacity: 0.3;
+       }
+
+
+       p{
+         margin-top: 10px;
+         font-family: RobotoCondensedRegular;
+       }
+     }
+   }
+   .Whats{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     flex-direction: column !important;
+     margin-top: 40px;
+     h3{
+       text-transform: uppercase;
+       font-family: Bebas;
+       line-height: 0;
+     }
+     .lineblue{
+       border: 1px solid #3452ff;
+       width: 2.5%;
+       margin-top: 19px;
+       margin-bottom: 43px;
+       background: #3452ff;
+     }
+
+   }
+   .Whats1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     .text1{
+       margin-left: 100px;
+       p{
+         width: 100%;
+         color: black;
+         font-family: RobotoCondensedRegular;
+       }
+     }
+     .text{
+       margin-left: 100px;
+       p{
+         width: 100%;
+         color: black;
+         font-family: RobotoCondensedRegular;
+       }
+     }
+   }
+   .sale1{
+     margin: 40px 0;
+     .sale{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       .check{
+         display: flex;
+         p{
+           font-family: RobotoRegular;
+         }
+         img{
+           width: 20px;
+           height: 20px;
+           margin-right: 20px;
+         }
+
+       }
+     }
+   }
+ }
+}
+@media (max-width: 994px){
+  .section2{
+    .center{
+      .Empressa{
+        h2{
+          text-align: center;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .services{
+
+      }
+      .Whats{
+        flex-direction: column;
+        .lineblue{
+          width: 9.5%;
+        }
+
+      }
+      .Whats1{
+        .text{
+          margin-left: 0;
+        }
+        .text1{
+          margin-left: 0;
+        }
+      }
+      .sale1{
+        .sale{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 994px){
+  .section2{
+    .center{
+      .Empressa{
+        h2{
+          text-align: center;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .services{
+
+      }
+      .Whats{
+        flex-direction: column;
+        .lineblue{
+          width: 9.5%;
+        }
+
+      }
+      .Whats1{
+        .text{
+          margin-left: 0;
+        }
+        .text1{
+          margin-left: 0;
+        }
+      }
+      .sale1{
+        .sale{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 994px) and (max-width: 1260px) {
+
+
+}
+
+@media (min-width: 1260px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1260px) {
+
+}
+
+
+@media (max-width: 767px) {
+  .section2{
+    .center{
+      .Empressa{
+        h2{
+          text-align: center;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .services{
+
+      }
+      .Whats{
+        flex-direction: column;
+        .lineblue{
+          width: 6.5%;
+        }
+
+      }
+      .Whats1{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        .text{
+          margin-left: 0;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          p{
+            width: 100%;
+          }
+        }
+        .text1{
+          margin-left: 0;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          p{
+            width: 100%;
+          }
+        }
+      }
+      .sale1{
+        .sale{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+}
+@media (min-width: 373px) and (max-width: 573px) {
+  .section2{
+    .center{
+      .Empressa{
+        h2{
+          text-align: center;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .services{
+        display: flex;
+        flex-direction: column;
+        .icons{
+          .LeftBorder{
+            display: none;
+          }
+          .RightBorder{
+            display: none;
+          }
+        }
+
+      }
+      .Whats{
+        flex-direction: column;
+        .lineblue{
+          width: 9.5%;
+        }
+
+      }
+      .Whats1{
+        display: flex;
+        flex-direction: column;
+        .text{
+          margin-left: 0;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          p{
+            width: 100%;
+          }
+        }
+        .text1{
+          margin-left: 0;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          p{
+            width: 100%;
+          }
+        }
+      }
+      .sale1{
+        .sale{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+}
+@media (min-width: 0px) and (max-width: 373px) {
+  .section2{
+    .center{
+      .Empressa{
+        h2{
+          text-align: center;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .services{
+        flex-direction: column;
+        .icons{
+          .LeftBorder{
+            display: none;
+          }
+          .RightBorder{
+            display: none;
+          }
+        }
+      }
+      .Whats{
+        flex-direction: column;
+        .lineblue{
+          width: 9.5%;
+        }
+
+      }
+      .Whats1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        .text{
+          margin-left: 0;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          p{
+            width: 100%;
+          }
+        }
+        .text1{
+          margin-left: 0;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          p{
+            width: 100%;
+          }
+        }
+      }
+      .sale1{
+        .sale{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .section2{
+    .center{
+      .Empressa{
+        h2{
+          text-align: center;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .services{
+
+      }
+      .Whats{
+        flex-direction: column;
+        .lineblue{
+          width: 9.5%;
+        }
+
+      }
+      .Whats1{
+        .text{
+          margin-left: 0;
+        }
+        .text1{
+          margin-left: 0;
+        }
+      }
+      .sale1{
+        .sale{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 920px) and (max-width: 992px) {
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section2{
+    .center{
+      .Empressa{
+        h2{
+          text-align: center;
+        }
+        p{
+          width: 100%;
+        }
+      }
+      .services{
+
+      }
+      .Whats{
+        flex-direction: row;
+        .lineblue{
+          width: 4.5%;
+        }
+
+      }
+      .Whats1{
+        margin-top: 20px;
+        .text{
+          margin-left: 0;
+          display: flex;
+          justify-content: center;
+        }
+        .text1{
+          margin-left: 0;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .sale1{
+        .sale{
+          flex-direction: column;
+          .check{
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+}
+@media (min-width: 576px){
+
+}
