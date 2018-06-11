@@ -6,63 +6,63 @@ import Gallery from 'react-photo-gallery';
 
 const photos = [
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/1.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/2.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%",],
     src: require("../../../gallery/3.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/4.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/5.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/6.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/7.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/8.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/9.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/10.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/11.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/12.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/13.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/14.jpg")
   },
   {
-    sizes: ["width: 100%", "height: 300px"],
+    sizes: ["width: 100%"],
     src: require("../../../gallery/15.jpg")
   }
 ];

@@ -30,7 +30,7 @@ class Footer extends React.Component{
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.contacts].join(' ')}>
                         <div className={['col-lg-3 col-md-4 hidden-md-down', styles.contacts2].join(' ')}>
                             <img src={require('../../../img/Logo.png')}  />
-                            <p> Мы рады предоставить Вам весь спектор услуг в продвижении Вашего бизнеса </p>
+                            <p> Мы рады предоставить Вам весь спектр услуг в продвижении Вашего бизнеса </p>
 
                         </div>
                         <div className={['col-lg-3 col-md-4  hidden-md-down', styles.contacts1].join(' ')}>
@@ -50,17 +50,17 @@ class Footer extends React.Component{
                             <h2> Контакты </h2>
                             <div className={styles.phone1}>
                                 <img src={require('../../../img/phone-receiver.png')}  />
-                                <p><a className={styles.ndecor} href=""> +7(702)454 75 25 </a> </p>
+                                <p><a  className={styles.ndecor} href="tel:+77024547525">+7(702)-454-75-25</a>  </p>
                             </div>
                             <div className={styles.messages}>
                                 <img src={require('../../../img/mail.png')}  />
-                                <p> info@empressa.kz </p>
+                                <p> info@01reklama.kz</p>
                             </div>
 
                         </div>
                     </div>
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.Empressa].join(' ')}>
-                        <h5>2018.Empressa</h5>
+                        <h5>2018.Empresa</h5>
                     </div>
                 </div>
             </footer >

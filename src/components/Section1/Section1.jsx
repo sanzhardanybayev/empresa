@@ -74,25 +74,16 @@ class Section1 extends React.Component {
                 <div className={styles.BlackFilter}></div>
                 <div className={['container row', 'col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.centerText].join(' ')}>
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.menu].join(' ')}>
-                        <h3>Мы знаем как лучше всего рассказать о Вас миру</h3>
-                        <h1> ХОТИТЕ, ЧТОБЫ ВАШ  БИЗНЕС ПРИНОСИЛ ПРИБЫЛЬ КРУГЛОСУТОЧНО? </h1>
-                        <p> По статистике наружная реклама привлекает больше 60% клиентов
-                            Если вы не учитываете этого, то Ваши деньги уходят конкурентам </p>
+                        <h1>НАРУЖНАЯ РЕКЛАМА В АЛМАТЫ </h1>
+                        <p style={{textAlign: 'center'}}> Выезд, замер и дизайн БЕСПЛАТНО!</p>
                         <a onClick={this.handleOpenModal} > Рассчитать стоимость рекламы </a>
                     </div>
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.contacts].join(' ')}>
                         <div className={styles.phone}>
                             <img src={require('../../../img/phone-receiver.png')}  />
-                            <p><a href="">+7(702)544-55-74</a>  </p>
+                            <p><a href="tel:+77024547525">+7(702)-454-75-25</a>  </p>
                         </div>
-                        <div className={styles.phone}>
-                            <img src={require('../../../img/phone-receiver.png')}  />
-                            <p><a href="">+7(702)544-55-74</a>  </p>
-                        </div>
-                        <div className={styles.phone}>
-                            <img src={require('../../../img/phone-receiver.png')}  />
-                            <p><a href="">+7(702)544-55-74</a>  </p>
-                        </div>
+
                     </div>
                 </div>
             </section>

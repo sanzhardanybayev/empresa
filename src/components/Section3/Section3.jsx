@@ -89,7 +89,6 @@ class Section3 extends React.Component {
                                     <li className={styles.food}> <Link to='/home'><span>Штендеры </span></Link></li>
                                     <li><Link to='/Lightbox'> <span>Лайтбоксы </span> </Link></li>
                                     <li> <Link to='/Signboards'> <span>Вывески </span> </Link></li>
-                                    <li> <Link to='/Stickers'> <span> Стикеры </span> </Link></li>
                                     <li> <Link to='/Volumetric'> <span> Объемные буквы </span> </Link></li>
                                     <li> <Link to='/Roof'> <span> Крышные установки </span> </Link></li>
                                     <li> <Link to='/Tablets'> <span> Таблички, указатели </span> </Link></li>
@@ -152,16 +151,11 @@ class Section3 extends React.Component {
                                 <ul>
                                     <li  className={styles.food}> <Link to='/Blanks'><span> Бланки </span></Link></li>
                                     <li>  <Link to='/Brochures'><span> Брошюры </span></Link></li>
-                                    <li> <Link to='/Booklets'><span> Буклеты </span></Link></li>
                                     <li> <Link to='/Cards'><span> Визитки </span></Link></li>
                                     <li> <Link to='/Calendars'><span> Календари </span></Link></li>
                                     <li> <Link to='/Catalogs'><span> Каталоги </span></Link></li>
                                     <li> <Link to='/Leaflets'><span> Листовки </span></Link></li>
                                     <li> <Link to='/Stickers1'><span> Наклейки, стикеры </span></Link></li>
-                                    <li> <Link to='/Posters1'><span> Плакаты </span></Link></li>
-                                    <li> <Link to='/Invitation'><span> Пригласительные билеты </span></Link></li>
-                                    <li> <Link to='/Labels'><span> Этикетки </span></Link></li>
-                                    <li> <Link to='/Magnets'><span> Магниты </span></Link></li>
 
                                 </ul>
                                 <div className={styles.butt}>
@@ -202,10 +196,12 @@ class Section3 extends React.Component {
                             <div className={styles.menu}>
                                 <ul>
                                     <li className={styles.food}>  <Link to='/Banner1'><span> Баннер </span></Link></li>
-                                    <li> <Link to='/Oracle'><span> Оракл </span></Link></li>
+                                    <li> <Link to='/Oracle'><span> Оракал </span></Link></li>
                                     <li> <Link to='/Perforated'><span> Перфорированный оракл </span></Link></li>
                                     <li> <Link to='/Canvas'><span> Холст </span></Link></li>
                                     <li> <Link to='/Paper'><span> Фотобумага </span></Link></li>
+                                    <li> <Link to='/Laser'><span> Лазерная резка</span></Link></li>
+                                    <li> <Link to='/Frazer'><span> Услуги фрезерно-гравировального станка MultiCam </span></Link></li>
 
                                 </ul>
                                 <div className={styles.butt}>

@@ -52,7 +52,7 @@ class Section5 extends React.Component{
                                 </div>
                                 <div className={styles.holdertext}>
                                     <p className={styles.red}> E-mail </p>
-                                    <p className={styles.linehight}> info@empresa.kz </p>
+                                    <p className={styles.linehight}> info@01reklama.kz</p>
                                 </div>
                             </div>
                             <div className={styles.holder0}>
