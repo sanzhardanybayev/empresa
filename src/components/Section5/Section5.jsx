@@ -38,7 +38,7 @@ class Section5 extends React.Component{
                             <div className={styles.holder0}>
 
                                 <div className={['col-lg-5 col-md-5 col-sm-5 hidden-md-down', styles.holder1].join(' ')}>
-                                    <img src={require('../../../img/holder1.png')}  />
+                                    <img src="http://localhost:3003/holder1.png"  />
                                 </div>
                                 <div className={styles.holdertext}>
                                     <p className={styles.red}> Адрес </p>
@@ -48,7 +48,7 @@ class Section5 extends React.Component{
                             </div>
                             <div className={styles.holder0}>
                                 <div className={['col-lg-5 col-md-5 col-sm-5 hidden-md-down', styles.holder1].join(' ')}>
-                                    <img src={require('../../../img/holder2.png')}  />
+                                    <img src="http://localhost:3003/holder2.png"   />
                                 </div>
                                 <div className={styles.holdertext}>
                                     <p className={styles.red}> E-mail </p>
@@ -57,7 +57,7 @@ class Section5 extends React.Component{
                             </div>
                             <div className={styles.holder0}>
                                 <div className={['col-lg-5 col-md-5 col-sm-5 hidden-md-down', styles.holder1].join(' ')}>
-                                    <img src={require('../../../img/holder3.png')} />
+                                    <img src="http://localhost:3003/holder3.png"  />
                                 </div>
                                 <div className={styles.holdertext}>
 

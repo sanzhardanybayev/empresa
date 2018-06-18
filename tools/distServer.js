@@ -18,7 +18,8 @@ app.use(compression());
 //  Here we are configuring express to use body-parser as middle-ware.
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
+app.use(express.static(path.join(__dirname, '../gallery')));
+app.use(express.static(path.join(__dirname, '../img')));
 app.use(express.static('dist'));
 
 // create reusable transporter object using the default SMTP transport

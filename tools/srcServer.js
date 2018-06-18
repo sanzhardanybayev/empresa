@@ -28,7 +28,8 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'email'));
 
 app.use(express.static(path.join(__dirname, 'email')));
-
+app.use(express.static(path.join(__dirname, '../gallery')));
+app.use(express.static(path.join(__dirname, '../img')));
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath

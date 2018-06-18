@@ -29,7 +29,7 @@ class Footer extends React.Component{
                 <div className={['container row', 'col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.FooterContainer].join(' ')}>
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.contacts].join(' ')}>
                         <div className={['col-lg-3 col-md-4 hidden-md-down', styles.contacts2].join(' ')}>
-                            <img src={require('../../../img/Logo.png')}  />
+                            <img src="http://localhost:3003/Logo.png" />
                             <p> Мы рады предоставить Вам весь спектр услуг в продвижении Вашего бизнеса </p>
 
                         </div>
@@ -49,11 +49,11 @@ class Footer extends React.Component{
 
                             <h2> Контакты </h2>
                             <div className={styles.phone1}>
-                                <img src={require('../../../img/phone-receiver.png')}  />
+                                <img src="http://localhost:3003/phone-receiver.png"  />
                                 <p><a  className={styles.ndecor} href="tel:+77024547525">+7(702)-454-75-25</a>  </p>
                             </div>
                             <div className={styles.messages}>
-                                <img src={require('../../../img/mail.png')}  />
+                                <img src="http://localhost:3003/mail.png" />
                                 <p> info@01reklama.kz</p>
                             </div>
 

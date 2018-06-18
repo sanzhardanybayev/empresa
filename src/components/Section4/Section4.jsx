@@ -7,63 +7,63 @@ import Gallery from 'react-photo-gallery';
 const photos = [
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/1.jpg")
+    src: "http://localhost:3003/1.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/2.jpg")
+    src: "http://localhost:3003/2.jpg"
   },
   {
     sizes: ["width: 100%",],
-    src: require("../../../gallery/3.jpg")
+    src: "http://localhost:3003/3.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/4.jpg")
+    src: "http://localhost:3003/4.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/5.jpg")
+    src: "http://localhost:3003/5.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/6.jpg")
+    src: "http://localhost:3003/6.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/7.jpg")
+    src: "http://localhost:3003/7.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/8.jpg")
+    src: "http://localhost:3003/8.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/9.jpg")
+    src: "http://localhost:3003/9.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/10.jpg")
+    src: "http://localhost:3003/10.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/11.jpg")
+    src: "http://localhost:3003/11.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/12.jpg")
+    src: "http://localhost:3003/12.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/13.jpg")
+    src: "http://localhost:3003/13.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/14.jpg")
+    src: "http://localhost:3003/14.jpg"
   },
   {
     sizes: ["width: 100%"],
-    src: require("../../../gallery/15.jpg")
+    src: "http://localhost:3003/15.jpg"
   }
 ];
 
