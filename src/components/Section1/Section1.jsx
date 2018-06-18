@@ -80,7 +80,7 @@ class Section1 extends React.Component {
                     </div>
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.contacts].join(' ')}>
                         <div className={styles.phone}>
-                            <img src="http://localhost:3003/phone-receiver.png"  />
+                            <img src="http://01reklama.kz/phone-receiver.png"  />
                             <p><a href="tel:+77024547525">+7(702)-454-75-25</a>  </p>
                         </div>
 

@@ -50,7 +50,7 @@ class Header extends React.Component {
                 </div>
                 <div className={['container row', 'col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.logoContainer].join(' ')}>
                     <div className={styles.Logo}>
-                        <a href="/" > <img src="http://localhost:3003/Logo.png"  /> </a>
+                        <a href="/" > <img src="http://01reklama.kz/Logo.png"  /> </a>
                     </div>
                     <div className={['col-lg-10 col-md-10 col-sm-12 hidden-md-down', styles.menu].join(' ')}>
                         <ul>

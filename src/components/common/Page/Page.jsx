@@ -32,7 +32,7 @@ class Page extends React.Component {
 
     render() {
         const id = this.props.match.params.id.toLowerCase();
-        const image = `http://localhost:3003/${data[id].image}`;
+        const image = `http://01reklama.kz/${data[id].image}`;
 
         return (
             <section className={styles.section110} style={{backgroundImage: `url(${image})`}}>

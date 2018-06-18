@@ -13,19 +13,19 @@ class Section2 extends React.Component {
                     </div>
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.services].join(' ')}>
                         <div className={styles.icons}>
-                            <img src="http://localhost:3003/biloard1.png"  />
+                            <img src="http://01reklama.kz/biloard1.png"  />
                             <p> Полный спектр услуг </p>
 
                         </div>
 
                         <div className={styles.icons}>
-                            <img src="http://localhost:3003/biloard2.png"  />
+                            <img src="http://01reklama.kz/biloard2.png"  />
                             <p> Собственное производство </p>
                             <div className={styles.LeftBorder}></div>
                         </div>
 
                         <div className={styles.icons}>
-                            <img src="http://localhost:3003/biloard3.png"  />
+                            <img src="http://01reklama.kz/biloard3.png"  />
                             <p> 5 лет на рынке </p>
                             <div className={styles.RightBorder}></div>
                         </div>
@@ -45,32 +45,32 @@ class Section2 extends React.Component {
                     <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.sale1].join(' ')}>
                         <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.sale].join(' ')}>
                             <div className={['col-lg-3 col-md-12 col-sm-12 hidden-md-down', styles.check].join(' ')}>
-                                <img src="http://localhost:3003/check.png"  />
+                                <img src="http://01reklama.kz/check.png"  />
                                 <p> Собственное производство </p>
 
                             </div>
                             <div className={['col-lg-3 col-md-12 col-sm-12 hidden-md-down', styles.check].join(' ')}>
-                                <img src="http://localhost:3003/check.png"  />
+                                <img src="http://01reklama.kz/check.png"  />
                                 <p> Доставка по городу </p>
 
                             </div>
                             <div className={['col-lg-3 col-md-12 col-sm-12 hidden-md-down', styles.check].join(' ')}>
-                                <img src="http://localhost:3003/check.png"  />
+                                <img src="http://01reklama.kz/check.png"  />
                                 <p> Использование современных материалов и технологий </p>
                             </div>
                         </div>
                         <div className={['col-lg-12 col-md-12 col-sm-12 hidden-md-down', styles.sale].join(' ')}>
                             <div className={['col-lg-3 col-md-12 col-sm-12 hidden-md-down', styles.check].join(' ')}>
-                                <img src="http://localhost:3003/check.png"  />
+                                <img src="http://01reklama.kz/check.png"  />
                                 <p> Система скидок </p>
 
                             </div>
                             <div className={['col-lg-3 col-md-12 col-sm-12 hidden-md-down', styles.check].join(' ')}>
-                                <img src="http://localhost:3003/check.png"  />
+                                <img src="http://01reklama.kz/check.png"  />
                                 <p> Реклама по любой бюджет </p>
                             </div>
                             <div className={['col-lg-3 col-md-12 col-sm-12 hidden-md-down', styles.check].join(' ')}>
-                                <img src="http://localhost:3003/check.png"  />
+                                <img src="http://01reklama.kz/check.png"  />
                                 <p> Качество и надежность рекламной продукции </p>
                             </div>
                         </div>
